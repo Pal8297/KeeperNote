@@ -1,0 +1,10 @@
+.alert{
+    background-color: rgb(235, 48, 48);
+    padding: 2px;
+    padding-left: 30px;
+    font-size: 20px;
+    position: fixed;
+    top: 65px;
+    width: 100vw;
+}
+

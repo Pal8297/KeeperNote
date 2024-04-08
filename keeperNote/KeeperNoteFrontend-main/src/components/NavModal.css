@@ -1,0 +1,29 @@
+.modalBackground1 {
+    display: none;
+}
+
+
+@media screen and (max-width: 650px) {
+    .modalBackground1 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(58, 53, 53);
+        position: fixed;
+        top: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modalContainer1 {
+        margin-bottom: 170px;
+    }
+
+    li {
+        padding: 25px;
+        font-size: 30px;
+    }
+    button{
+        font-size: 25px;
+    }
+}

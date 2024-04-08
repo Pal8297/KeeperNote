@@ -1,0 +1,65 @@
+.nav{
+    position: fixed;
+    top: 0;
+    height: 65px;
+    width: 100vw;
+}
+.nav1{
+    margin-left: -11px;
+}
+.nav2{
+    margin-right: 13px;
+}
+.nav, .nav1, .nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(58, 53, 53);
+};
+
+.nav1, .nav2{
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+.active{
+    color: aliceblue;
+}
+li{
+    list-style: none;
+    padding: 0px 23px;
+    font-size: 20px;   
+}
+button{
+    font-size: 19px;
+    padding: 6px;
+    border: 0;
+    border-radius: 10px;
+}
+
+button, a{
+    cursor: pointer;
+}
+
+.header{
+    font-size: 30px;
+}
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 650px){
+    .nav2{
+        display: none;
+    }
+    .hamburger{
+        display: initial;
+        margin-right: 5%;
+    }
+
+}

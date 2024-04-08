@@ -1,0 +1,8 @@
+.HeroBanner{
+    margin-top: 210px;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+}

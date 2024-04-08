@@ -1,0 +1,38 @@
+.noteContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px;
+    align-items: center;
+    border: 0.5px solid rgb(178, 177, 177);
+    width: 240px;
+    margin-bottom: 20px;
+}
+.inner-noteContainer{
+    width: 240px;
+}
+p{
+    margin: 2px;
+}
+.title{
+    font-size: 22px;
+}
+.description{
+    font-size: 18px;
+}
+i{
+    cursor: pointer;
+    padding: 7px;
+}
+
+@media screen and (max-width: 650px) {
+    .noteContainer{
+        padding: 10%;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 25px;
+    }
+}
